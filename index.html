@@ -11,7 +11,7 @@
 <body>
     <!-- header start -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img src="./images/logo.png" alt="Website logo">
@@ -25,13 +25,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -97,7 +97,7 @@
           </section>
     </header>
     <main>
-      <!-- categories -->
+      <!-- categories section -->
       <section class="container py-5 my-5">
         <div class="row g-4">
           <div class="col-md-6 col-sm-12 col-lg-4">
@@ -120,10 +120,10 @@
           </div>
         </div>
       </section>
-      <!-- shoes -->
-      <section class="container py-5 my-5">
+      <!-- shoes section -->
+      <section class="container py-5 my-5" id="shoes">
         <h1>Shoes</h1>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
             <div class="card border-0 shadow h-100">
               <img src="./images/shoes/shoe-1.png" class="card-img-top" alt="...">
@@ -159,10 +159,10 @@
           </div>
         </div>
       </section>
-      <!-- Backpack -->
-      <section class="container py-5 my-5">
+      <!-- Backpack section -->
+      <section class="container py-5 my-5" id="backpack">
         <h1>Backpack</h1>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
             <div class="card border-0 shadow h-100">
               <img src="./images/bags/bag-1.png" class="card-img-top" alt="...">
@@ -204,9 +204,19 @@
           </div>
         </div>
       </section>
+      <!-- Subscribe section -->
+      <section style="height: 300px;" class="container mb-5 d-flex rounded-3 justify-content-center align-items-center bg-danger bg-gradient bg-opacity-10" id="subscribe">
+        <div>
+          <h3>LET'S STAY IN TOUCH</h3>
+          <p class="mb-1 m-0">Get updates on sales, specials and more</p>
+          <input type="email" name="" id="" placeholder="Your email here">
+          <br>
+          <button class="btn btn-danger py-2 px-4">SUBMIT</button>
+        </div>
+      </section>
     </main>
-    <footer>
-
+    <footer class="mt-3 mb-0">
+      <h6 class="mb-0 text-center">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</h6>
     </footer>
 
 
